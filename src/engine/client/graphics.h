@@ -145,6 +145,9 @@ public:
 	virtual void TakeScreenshot(const char *pFilename);
 	virtual void Swap();
 
+	// demo converter
+	virtual void get_current_frame(unsigned char* frame_buf);
+
 	virtual int GetVideoModes(CVideoMode *pModes, int MaxModes);
 
 	// syncronization
